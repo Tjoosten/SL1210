@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
     {
 		// Subdevision seeds. 
 		$this->call(UsaSubDevisionSeeder::class); 
+        $this->call(MexicoSubDivisionSeeder::class);
 
         // $this->call('UsersTableSeeder');
     }
