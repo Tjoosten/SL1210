@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
         $this->call(BelguimSubdivisionSeeder::class);
         $this->call(GranadaSubdivisionSeeder::class);
         $this->call(TongaSubdivisionSeeder::class);
+        $this->call(TurkeySubdivisionSeeder::class);
 
         // $this->call('UsersTableSeeder');
     }
