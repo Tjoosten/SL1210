@@ -11,8 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-		// Subdivision seeds.
-		$this->call(UsaSubDevisionSeeder::class); 
+        // Subdivision seeds.
+        $this->call(UsaSubDevisionSeeder::class);
         $this->call(MexicoSubDivisionSeeder::class);
         $this->call(IsraelSubdivisionSeeder::class);
         $this->call(AlgeriaSubdivisionSeeder::class);
@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call(YemenSubdivisionSeeder::class);
         $this->call(TuvaluSubdivisionSeeder::class);
         $this->call(JapanSubdivisionSeeder::class);
+        $this->call(BelguimSubdivisionSeeder::class);
 
         // $this->call('UsersTableSeeder');
     }
