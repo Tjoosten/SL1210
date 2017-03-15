@@ -42,6 +42,7 @@ class DatabaseSeeder extends Seeder
         $this->call(PanamaData::class);
         $this->call(PolandData::class);
         $this->call(VenezuelaData::class);
+        $this->call(AlbaniaData::class);
 
         // $this->call('UsersTableSeeder');
     }
