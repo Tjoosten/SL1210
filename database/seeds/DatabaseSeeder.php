@@ -38,6 +38,7 @@ class DatabaseSeeder extends Seeder
 
         // Now naming convention
         $this->call(SenegalData::class);
+        $this->call(QatarData::class);
 
         // $this->call('UsersTableSeeder');
     }
