@@ -32,6 +32,7 @@ class DatabaseSeeder extends Seeder
         $this->call(TrinidadTobagoSubdivisionSeeder::class);
         $this->call(VanuatuSubdivisionSeeder::class);
         $this->call(ZambiaSubdivisionSeeder::class);
+        $this->call(UruguaySubdivisionSeeder::class);
 
         // $this->call('UsersTableSeeder');
     }
