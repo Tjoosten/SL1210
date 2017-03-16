@@ -46,6 +46,7 @@ class DatabaseSeeder extends Seeder
         $this->call(TimorLesteData::class);
         $this->call(UsMinorOutlyingIslands::class);
         $this->call(TurkmenistanData::class);
+        $this->call(TanzaniaData::class);
 
         // $this->call('UsersTableSeeder');
     }
