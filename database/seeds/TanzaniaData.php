@@ -49,7 +49,7 @@ class TanzaniaData extends Seeder
         ];
 
         $division = Db::table('devisions');
-        $division->where('ISO_3166_2', 'LIKE', '%T-%')->delete();
+        $division->where('ISO_3166_2', 'LIKE', '%TZ-%')->delete();
         $division->insert($divisionData);
     }
 }
